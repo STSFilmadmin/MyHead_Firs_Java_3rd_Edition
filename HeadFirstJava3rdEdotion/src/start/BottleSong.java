@@ -8,7 +8,7 @@ public class BottleSong {
 			System.out.println("Пісенька про 99 пляшок пива");
 		while (bootleNum > 0) {
 			if (bootleNum > 0) {
-				System.out.println(bootleNum + " " + bootle + " пива  на стіні, " + bootleNum + " " + bootle + " пива.");
+				System.out.println(bootleNum + " " + bootle + " пива на стіні, " + bootleNum + " " + bootle + " пива.");
 				System.out.println("Візьми одну та передай");
 			}
 			bootleNum--;
@@ -21,7 +21,7 @@ public class BottleSong {
 		}
 		bootle = "пляшок";
 		System.out.println("Немає більше " + bootle
-				+ " пива на стіні, більше немає пляшок пива. Іди в магазин і купи ще, 99 пляшок пива."); //
+				+ " пива на стіні, іди в магазин і купи ще, 99 пляшок пива..."); //
 	}
 
 }
