@@ -16,23 +16,29 @@ Date: Apr 22, 2023
 	*/
 
 package chapter3;
+import java.util.Scanner;
+
 
 public class SharpenYourPencil {
 
 	public static void main(String[] args) {
-		  
+			System.out.println("Введи початкове число:");
+		  	Scanner scan =  new Scanner(System.in);
+		  	int  g = scan.nextInt();
+		    scan.close();
 //		    int x = 34.5; 			так не можна 
 //		    boolean boo = x;		так тоже не можна 
-		    int g = 17;
+		    int g2 = 17;
 		    int y = g;
 		    y = y + 10;
+		    
 		    short s = 1;
 		    System.out.println(s);
 //		    s = y;				//не вірний вираз різні типи змінних.... не влізе...
 		    byte b = 3;
 		    byte v = b;
-		    System.out.println(b+" "+v+" "+(b+v));
-		    
+		    System.out.println(b+" "+v+" "+(b+v)+g2);
+		  
 		    int zminna_x;
 			zminna_x = 5;
 			System.out.println(zminna_x);
